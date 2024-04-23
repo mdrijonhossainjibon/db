@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "7d0ab1d4-9f21-46a2-adbb-e074263c6b83",
+    "pair": "BTC-USDT",
+    "price": 2100,
+    "volume": 780000000000000000000,
+    "timestamp": 1707105880702
+  },
+  {
+    "_id": "f193ea72-bc2a-416a-93cd-ee8891ba8732",
+    "pair": "BTC/USD",
+    "price": 40000,
+    "volume": 1,
+    "timestamp": 1707138126757
+  },
+  {
+    "_id": "3d35b1be-605a-47e6-b339-f93b29956d3e",
+    "pair": "BTC/USD",
+    "price": 40000,
+    "volume": 1,
+    "timestamp": 1707138537055
+  },
+  {
+    "_id": "31791917-d9a6-4c25-9bc0-9e7f0de2c9ba",
+    "pair": "BTC/USD",
+    "price": 40000,
+    "volume": 1,
+    "timestamp": 1707138729741
+  },
+  {
+    "_id": "3c0a4e95-2246-42cc-8c4f-9e5e39f942bc",
+    "pair": "BTC/USD",
+    "price": 40000,
+    "volume": 1,
+    "timestamp": 1707139039640
+  }
+]

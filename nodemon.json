@@ -1,0 +1,7 @@
+{
+    "watch": ["*.js"],
+    "execMap": {
+      "js": "node --experimental-json-modules"
+    }
+  }
+  
