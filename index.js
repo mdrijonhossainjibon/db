@@ -4,8 +4,7 @@ const mongoose = require('mongoose');
 const NOSQL = require('./Database');
 const app = express();
 app.use(express.json());
-const fs = require("fs");
-const path = require("path");
+ 
 
 const Database = require("./db");
 
@@ -18,20 +17,9 @@ const uri = 'mongodb+srv://admin:admin@myddata.pjfv1oi.mongodb.net/trading' //'m
 
 mongoose.connect(uri).then(() => console.log('Connected to MongoDB'));
 
-const dbDirectoryPath = path.join(__dirname, "Store");
- 
-// Check if the directory exists, create it if not
-if (!fs.existsSync(dbDirectoryPath)) {
-  try {
-    fs.mkdirSync(dbDirectoryPath, { recursive: true });
-  } catch (error) {
-    console.error("Error creating directory:", error.message);
-  }
-}
+ ;
 
-const db = new Database();
-
-const wsServer = new WebSocketServer(server, db);
+const wsServer = new WebSocketServer(server );
 
 app.post("/api", async (req, res, next) => {
   try {
